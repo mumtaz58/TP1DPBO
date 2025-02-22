@@ -6,3 +6,12 @@ Saya Armelia Zahrah Mumtaz dengan NIM 2300801 berjanji mengerjakan TP1 DPBO deng
 ![WhatsApp Image 2025-02-15 at 21 13 45_83957230](https://github.com/user-attachments/assets/189a925f-c9ce-49f6-a17a-e290b0878b2c)
 ![WhatsApp Image 2025-02-15 at 21 16 32_e5a76919](https://github.com/user-attachments/assets/05974656-2691-41fb-9e7b-72797e3b447e)
 
+**Alur Program**
+Program PetShop mengelola data produk dengan menu: Tambah, Tampilkan, Cari, Ubah, Hapus, dan Keluar. User pilih menu sesuai kebutuhan.
+Tambah produk: input ID, Nama, Kategori, Harga dengan validasi angka. Data disimpan ke array, muncul konfirmasi.
+Tampilkan produk: kalau ada, tampil daftar produk; kalau kosong, kasih info.
+Cari produk: input nama, kalau ketemu tampil detail, kalau nggak, kasih info.
+Ubah produk: input ID, kalau ketemu ubah data, kalau nggak, kasih info.
+Hapus produk: input ID, kalau ketemu dihapus, kalau nggak, kasih info.
+Program selesai saat pilih Keluar.
+
