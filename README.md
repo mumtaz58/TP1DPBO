@@ -8,17 +8,26 @@ Saya Armelia Zahrah Mumtaz dengan NIM 2300801 berjanji mengerjakan TP1 DPBO deng
 
 **Alur Program**
 
-Program PetShop mengelola data produk dengan menu: Tambah, Tampilkan, Cari, Ubah, Hapus, dan Keluar. User pilih menu sesuai kebutuhan.
+Program PetShop ini dibuat untuk mengelola data produk yang dijual. Di awal, program menampilkan menu utama yang berisi opsi seperti Tambah Produk, Tampilkan Produk, Cari Produk, Ubah Produk, Hapus Produk, dan Keluar. User bisa memilih salah satu menu sesuai kebutuhan.
 
-Tambah produk: input ID, Nama, Kategori, Harga dan kemudian muncul konfirmasi.
+Saat menambah produk, user diminta memasukkan ID, Nama, Kategori, dan Harga produk. Ada validasi supaya ID dan Harga hanya menerima input berupa angka. Kalau semua data valid, produk akan disimpan ke dalam array dan program menampilkan konfirmasi bahwa produk berhasil ditambahkan.
 
-Tampilkan produk: kalau ada, tampil daftar produk.
+Kalau mau lihat semua produk, user bisa memilih menu Tampilkan Produk. Kalau ada produk, program akan menampilkan daftar lengkap berisi ID, Nama, Kategori, dan Harga. Kalau belum ada produk, program akan memberi tahu bahwa daftar masih kosong.
 
-Cari produk: input nama, kalau ketemu tampil detail.
+Untuk mencari produk, user cukup memasukkan nama produk yang dicari. Kalau ketemu, detail produk akan ditampilkan. Kalau nggak, program kasih tahu kalau produk tersebut nggak ditemukan.
 
-Ubah produk: input ID, kalau ketemu ubah data.
+Kalau mau mengubah data produk, user harus memasukkan ID produk yang mau diubah. Kalau ID ditemukan, program minta data baru seperti Nama, Kategori, dan Harga. Setelah data diperbarui, program kasih konfirmasi. Kalau ID nggak ditemukan, program akan memberi tahu.
 
-Hapus produk: input ID, kalau ketemu dihapus.
+Untuk menghapus produk, user juga cukup memasukkan ID produk yang mau dihapus. Kalau ID ditemukan, produk dihapus dari daftar dan program kasih konfirmasi. Kalau ID nggak ada, program kasih tahu kalau produk tersebut nggak ditemukan.
 
-Program selesai saat pilih Keluar.
+Program ini berakhir kalau user memilih opsi Keluar.
 
+**Design**
+
+ desain : displayProducts(), searchProduct(), updateProduct(), deleteProduct()
+
+ atribut : id, name, category, price, products[], productCount
+
+ metode : Konstruktor, Getter, Setter, addProduct(), Pastikan ID & harga angka
+
+struktur : Menu pakai switch-case, navigasi mudah dan terstruktur.
