@@ -10,15 +10,15 @@ Saya Armelia Zahrah Mumtaz dengan NIM 2300801 berjanji mengerjakan TP1 DPBO deng
 
 Program PetShop mengelola data produk dengan menu: Tambah, Tampilkan, Cari, Ubah, Hapus, dan Keluar. User pilih menu sesuai kebutuhan.
 
-Tambah produk: input ID, Nama, Kategori, Harga dengan validasi angka. Data disimpan ke array, muncul konfirmasi.
+Tambah produk: input ID, Nama, Kategori, Harga dan kemudian muncul konfirmasi.
 
-Tampilkan produk: kalau ada, tampil daftar produk; kalau kosong, kasih info.
+Tampilkan produk: kalau ada, tampil daftar produk.
 
-Cari produk: input nama, kalau ketemu tampil detail, kalau nggak, kasih info.
+Cari produk: input nama, kalau ketemu tampil detail.
 
-Ubah produk: input ID, kalau ketemu ubah data, kalau nggak, kasih info.
+Ubah produk: input ID, kalau ketemu ubah data.
 
-Hapus produk: input ID, kalau ketemu dihapus, kalau nggak, kasih info.
+Hapus produk: input ID, kalau ketemu dihapus.
 
 Program selesai saat pilih Keluar.
 
